@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "ES2022",
+		"moduleResolution": "node",
+		"lib": [
+			"es2015"
+		],
+
+		"rootDir": "src",
+		"outDir": "out",
+
+		"forceConsistentCasingInFileNames": true,
+
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"downlevelIteration": true,
+		"declaration": false,
+
+		"pretty": true
+	},
+	"include": [
+		"typings/**/*",
+		"src/**/*"
+	]
+}
